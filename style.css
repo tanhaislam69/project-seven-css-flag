@@ -1,0 +1,84 @@
+                              
+							  /* bd */
+
+
+.green {
+	width: 500px;
+	height: 200px;
+	background: green;
+    position: relative;
+    box-shadow: 0 0 13px 1px black;
+}
+
+.green .red {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+                                 /* japan */
+
+
+
+.white {
+	height: 200px;
+	width: 500px;
+	background-color: whitesmoke;
+	position: relative;
+	box-shadow: 0 0 13px 1px black;
+}
+
+.white .xred {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%,-50%);
+}
+                                /* argentina */
+.skyblue{
+   height: 200px;
+   width: 500px;
+background: skyblue;
+box-shadow: 0 0 13px 1px black;
+position: relative;
+}
+
+
+
+
+
+.skyblue .whitev {
+	height: 80px;
+	width: 500px;
+	position: absolute;
+	background: white;
+	bottom: 60px;
+	text-align: center;
+	
+	
+	
+	
+}
+
+
+
+.redj{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid red;
+	border-bottom: 25px solid transparent;
+
+
+}
